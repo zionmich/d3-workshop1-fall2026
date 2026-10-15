@@ -15,18 +15,20 @@
 // d3.selectAll() finds ALL elements (like querySelectorAll)
 
 d3.select('#demo-1')
-    .style('color', 'blue')
+    .style('color', 'green')
     .style('font-size', '20px')
-    .text('This text was changed by D3!');
+    .text('This text was changed by Zion!');
 
-// TODO: change the text above to add your name
-// TODO: change the color to something else you like // keep in mind color contrast
+// DONE: change the text above to add your name
+// DONE: change the color to something else you like // keep in mind color contrast
 
 
 // Create and append new elements
 d3.select('#demo-1')
     .append('p')
-    .text('This paragraph was created by D3')
-    .style('background-color', 'lightgray');
+    .text('Pizza')
+    .style('color', 'red')
+    .style('font-size', '50px')
+    .style('background-color', '#ffff00');
 
-// TODO: append a new element with your favorite food and style it with a different background color
+// DONE: append a new element with your favorite food and style it with a different background color
